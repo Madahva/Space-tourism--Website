@@ -50,7 +50,6 @@
 /* Reset               */
 /* ------------------- */
 
-/* https://piccalil.li/blog/a-modern-css-reset/ */
 
 /* Box sizing */
 *,
@@ -280,6 +279,7 @@ select {
 
 .primary-navigation a {
     text-decoration: none;
+    padding: 2.5rem 0;
 }
 
 .primary-navigation a > span {
