@@ -636,8 +636,31 @@ body {
     
     .grid-container--crew > picture {
         grid-column: span 2;
-        align-self: end; 
-        max-width: 90%;
+        align-self:  end; 
+        max-width: 100%; 
+    }
+
+    .image-1 {
+        max-width: 60% !important;
+    }
+
+    .image-2 {
+        max-width: 55% !important;
+    }
+
+    .image-3 {
+        max-width: 70% !important;
+    }
+
+    .image-4 {
+        max-width: 80% !important;
+    }
+
+    @media(max-width: 950px){
+        .image-2 {
+            max-width: 80% !important;
+            padding-left: 7rem;
+        }
     }
 
 }
