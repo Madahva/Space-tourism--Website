@@ -741,13 +741,10 @@ body {
     color: #000;
 }
 
-.capsule-image {
-    min-height: auto;
-    width: 100%;
-}
-
-.tech img, picutre {
+.tech img,
+picutre {
     min-height: 170px;
+    height: 100%;
 }
 
 .tech-text {
@@ -766,4 +763,30 @@ body {
 
 .tech-text p {
     color: #D0D6F9;
+}
+
+@media(min-width: 720px) {
+
+    .tech h1 {
+        align-self: flex-start;
+        padding: 2.4rem;
+        margin: 0;
+    }
+
+    .tech-tab button {
+        margin: 2rem 0;
+
+    }
+
+    .tech-text header p {
+        font-size: 40px;
+    }
+
+    .tech-text p {
+        font-size: 16px;
+        max-width: 440px;
+        line-height: 28px;
+    }
+
+
 }
