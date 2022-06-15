@@ -12,6 +12,7 @@
     href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="../../src/main.css">
+  <link rel="stylesheet" href="../../src/styles/technology.css">
   <script src="../index.js" defer></script>
 </head>
 
@@ -42,21 +43,20 @@
 
     <div class="images">
       <picture id="commander-image">
-        <source srcset="../assets/technology/image-launch-vehicle-landscape.jpg"
-        media="(max-width: 1000px)">
-        <source srcset="../assets/technology/image-launch-vehicle-portrait.jpg" media="(min-width: 1000px)">
+        <source srcset="../assets/technology/image-launch-vehicle-landscape.jpg" media="(max-width: 1000px)" loading="lazy">
+        <source srcset="../assets/technology/image-launch-vehicle-portrait.jpg" media="(min-width: 1000px)" loading="lazy">
         <img src="../assets/technology/image-launch-vehicle-landscape.jpg" alt="vehicle">
       </picture>
 
       <picture hidden id="pilot-image">
-        <source srcset="../assets/technology/image-spaceport-landscape.jpg" media="(max-width: 1000px)">
-        <source srcset="../assets/technology/image-spaceport-portrait.jpg" media="(min-width: 1000px)">
+        <source srcset="../assets/technology/image-spaceport-landscape.jpg" loading="lazy" media="(max-width: 1000px)">
+        <source srcset="../assets/technology/image-spaceport-portrait.jpg" loading="lazy" media="(min-width: 1000px)">
         <img src="../assets/crew/image-victor-glover.png" alt="Douglas Hurley">
       </picture>
 
       <picture hidden id="mission-image">
-        <source srcset="../assets/technology/image-space-capsule-landscape.jpg" media="(max-width: 1000px)">
-        <source srcset="../assets/technology/image-space-capsule-portrait.jpg" media="(min-width: 1000px)">
+        <source srcset="../assets/technology/image-space-capsule-landscape.jpg" media="(max-width: 1000px)" loading="lazy">
+        <source srcset="../assets/technology/image-space-capsule-portrait.jpg" media="(min-width: 1000px)" loading="lazy">
         <img src="../assets/technology/image-space-capsule-landscape.jpg" alt="Spcae capsule">
       </picture>
     </div>
@@ -73,7 +73,7 @@
     </div>
 
     <div class="tech-text">
-      <article class="crew-details flow" id="commander-tab" role="tabpanel" tabindex="0">
+      <article class="crew-details flow" id="commander-tab" role="tabpanel">
         <header class="flow flow--space-small">
           <h2 class="fs-600 ff-serif uppercase">The terminology...</h2>
           <p class="fs-700 uppercase ff-serif">Launch vehicle</p>
@@ -84,7 +84,7 @@
           150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
       </article>
 
-      <article hidden class="crew-details flow" id="pilot-tab" role="tabpanel" tabindex="0">
+      <article hidden class="crew-details flow" id="pilot-tab" role="tabpanel">
         <header class="flow flow--space-small">
           <h2 class="fs-600 ff-serif uppercase">The terminology...</h2>
           <p class="fs-700 uppercase ff-serif">Spaceport</p>
@@ -95,7 +95,7 @@
           of the Earth’s rotation for launch.</p>
       </article>
 
-      <article hidden class="crew-details flow" id="mission-tab" role="tabpanel" tabindex="0">
+      <article hidden class="crew-details flow" id="mission-tab" role="tabpanel">
         <header class="flow flow--space-small">
           <h2 class="fs-600 ff-serif uppercase">The terminology...</h2>
           <p class="fs-700 uppercase ff-serif">Space capsule</p>
