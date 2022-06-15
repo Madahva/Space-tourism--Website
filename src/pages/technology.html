@@ -42,24 +42,24 @@
 
     <div class="images">
       <picture id="commander-image">
-        <source srcset="../assets/technology/image-launch-vehicle-landscape.jpg" type="image/webp">
+        <source srcset="../assets/technology/image-launch-vehicle-landscape.jpg"
+        media="(max-width: 1000px)">
+        <source srcset="../assets/technology/image-launch-vehicle-portrait.jpg" media="(min-width: 1000px)">
         <img src="../assets/technology/image-launch-vehicle-landscape.jpg" alt="vehicle">
       </picture>
 
       <picture hidden id="pilot-image">
-        <source srcset="../assets/technology/image-spaceport-landscape.jpg" type="image/webp">
+        <source srcset="../assets/technology/image-spaceport-landscape.jpg" media="(max-width: 1000px)">
+        <source srcset="../assets/technology/image-spaceport-portrait.jpg" media="(min-width: 1000px)">
         <img src="../assets/crew/image-victor-glover.png" alt="Douglas Hurley">
       </picture>
 
       <picture hidden id="mission-image">
-        <source srcset="../assets/technology/image-space-capsule-landscape.jpg" type="image/webp">
+        <source srcset="../assets/technology/image-space-capsule-landscape.jpg" media="(max-width: 1000px)">
+        <source srcset="../assets/technology/image-space-capsule-portrait.jpg" media="(min-width: 1000px)">
         <img src="../assets/technology/image-space-capsule-landscape.jpg" alt="Spcae capsule">
       </picture>
-
     </div>
-
-
-
 
     <div class="tech-tab flex" role="tablist" aria-label="crew member list">
       <button aria-selected="true" aria-controls="commander-tab" role="tab" data-image="commander-image"
@@ -73,7 +73,6 @@
     </div>
 
     <div class="tech-text">
-
       <article class="crew-details flow" id="commander-tab" role="tabpanel" tabindex="0">
         <header class="flow flow--space-small">
           <h2 class="fs-600 ff-serif uppercase">The terminology...</h2>
