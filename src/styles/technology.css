@@ -19,6 +19,7 @@
   color: white;
   height: 50px;
   width: 50px;
+  cursor: pointer;
 }
 
 .tech-tab>[aria-selected="true"] {
