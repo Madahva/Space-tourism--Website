@@ -3,18 +3,18 @@ Space tourism multi-page website 🛰🌍
 
 This is my solution to the Space tourism website challenge on Frontend Mentor
 
-## 🔗 You can see the deploy here: https://madahva.github.io/space-tourism-website/
-
-
-### Built with
+#### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- CSS Flexbox
 - CSS Grid
 - Mobile-first workflow
-- Figma to code
+- Figma
 - JavaScript
+
+### 🔗 You can see the deploy here: https://madahva.github.io/space-tourism-website/
+
 
 <br />
 
