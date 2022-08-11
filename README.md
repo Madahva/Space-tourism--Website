@@ -1,4 +1,4 @@
-# space-tourism-website
+# Space Tourism - Website
 Space tourism multi-page website 🛰🌍
 
 This is my solution to the Space tourism website challenge on Frontend Mentor
