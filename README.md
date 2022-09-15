@@ -9,7 +9,7 @@ This is my solution to the Space tourism website challenge on Frontend Mentor
 - CSS custom properties
 - CSS Flexbox
 - CSS Grid
-- Mobile-first workflow
+- Mobile-first Workflow
 - Figma
 - JavaScript
 
