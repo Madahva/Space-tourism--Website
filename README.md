@@ -13,7 +13,7 @@ This is my solution to the Space tourism website challenge on Frontend Mentor
 - Figma
 - JavaScript
 
-### 🔗 You can see the deploy here: https://madahva.github.io/space-tourism-website/
+### 🔗 You can see the deploy here: https://madahva.github.io/Space-tourism--Website/
 
 
 <br />
